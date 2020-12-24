@@ -32,7 +32,7 @@ input {
   font-size: 1rem;
   outline: none;
   color: white;
-  padding: 1.525rem 0 1.525rem 0.325rem;
+  padding: 1.525rem 0 1.225rem 0.325rem;
 }
 input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
