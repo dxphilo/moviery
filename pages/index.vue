@@ -3,6 +3,7 @@
     <Searchmovie />
     <Imagesection />
     <Upcoming />
+    <Footer />
   </div>
 </template>
 
@@ -11,6 +12,8 @@ const keys = require("@/config/keys");
 const Searchmovie = () => import("@/components/Searchmovie");
 const Imagesection = () => import("@/components/Imagesection");
 const Upcoming = () => import("@/components/Upcoming");
+const Footer = () =>
+  import(/*webpackChunkName: "Footer"*/ "@/components/Footer");
 import axios from "axios";
 export default {
   name: "index",
@@ -18,9 +21,10 @@ export default {
     Searchmovie,
     Imagesection,
     Upcoming,
+    Footer,
   },
 };
 </script>
 
-<style>
+<style scoped>
 </style>

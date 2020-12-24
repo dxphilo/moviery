@@ -8,7 +8,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 .imagesect {
   height: 400px;
   background-image: url("https://image.tmdb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/jTiQAusGG4dVLSb1WHme9I9R4NN.jpg");

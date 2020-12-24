@@ -1,20 +1,13 @@
 <template>
   <div>
     <Nuxt />
-    <Footer />
   </div>
 </template>
 <script>
-const Footer = () => import("@/components/Footer");
-export default {
-  name: "Footer",
-  components: {
-    Footer,
-  },
-};
+export default {};
 </script>
 
-<style>
+<style scoped>
 html {
   font-family: Zilla Slab, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
