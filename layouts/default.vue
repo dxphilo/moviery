@@ -1,8 +1,18 @@
 <template>
   <div>
     <Nuxt />
+    <Footer />
   </div>
 </template>
+<script>
+const Footer = () => import("@/components/Footer");
+export default {
+  name: "Footer",
+  components: {
+    Footer,
+  },
+};
+</script>
 
 <style>
 html {
