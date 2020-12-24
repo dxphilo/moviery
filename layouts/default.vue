@@ -7,7 +7,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
 html {
   font-family: Zilla Slab, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
