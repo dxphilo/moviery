@@ -19,15 +19,15 @@ export default {};
 </script>
 <style scoped>
 .search {
-  background-color: rgb(230, 71, 71);
-  font-weight: 100;
+  background-color: #0d253f;
+  font-weight: 500;
 }
 form {
-  background-color: rgb(230, 71, 71);
+  background-color: #0d253f;
   margin: 0 20%;
 }
 input {
-  background-color: rgb(230, 71, 71);
+  background-color: #0d253f;
   border: none;
   font-size: 1rem;
   outline: none;
