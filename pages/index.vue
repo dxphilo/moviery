@@ -1,11 +1,17 @@
 <template>
   <div>
-    <h2>Movie DB</h2>
+    <Searchmovie />
   </div>
 </template>
 
 <script>
-export default {};
+const Searchmovie = () => import("@/components/Searchmovie");
+export default {
+  name: "index",
+  components: {
+    Searchmovie,
+  },
+};
 </script>
 
 <style>
