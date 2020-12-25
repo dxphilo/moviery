@@ -85,11 +85,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-          loaders:  {
-      vue: {
-         prettify: false
-      }
-    },
          configureWebpack: {
     optimization: {
       runtimeChunk: 'single',
