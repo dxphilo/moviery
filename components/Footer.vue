@@ -40,6 +40,7 @@ export default {
 
 <style scoped>
 .footer {
+  margin-top: 2rem;
   text-align: center;
   height: 5rem;
   font-size: 1.1458rem;
