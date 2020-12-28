@@ -1,10 +1,16 @@
 <template>
   <div>
     <Nuxt />
+    <Footer />
   </div>
 </template>
 <script>
-export default {};
+const Footer = () => import("@/components/Footer");
+export default {
+  component: {
+    Footer,
+  },
+};
 </script>
 
 <style>
